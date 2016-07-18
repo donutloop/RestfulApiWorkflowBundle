@@ -27,7 +27,10 @@
     "symfony/phpunit-bridge": "~2.7|~3.0"
   },
   "autoload": {
-    "psr-4": { "Donutloop\\RestfulApiWorkflowBundle\\": "" }
+    "psr-4": {"Donutloop\\RestfulApiWorkflowBundle\\": "src/"}
+  },
+  "autoload-dev": {
+    "psr-4": {"Donutloop\\RestfulApiWorkflowBundle\\": "tests/"}
   },
   "extra": {
     "branch-alias": {
